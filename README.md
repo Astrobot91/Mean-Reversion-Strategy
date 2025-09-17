@@ -53,7 +53,7 @@ To run the full backtest pipeline (unstressed and stressed), save tradesheets, m
 ```bash
 PYTHONPATH=. python src/main.py
 ```
-
+- Change the strategy configs in `src/config.yaml`
 - Tradesheets will be saved in `src/data/tradesheets/`
 - Metrics will be saved in `src/data/metrics.csv`
 - Plots will be saved in `src/data/plots/`
