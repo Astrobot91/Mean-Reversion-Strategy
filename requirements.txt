@@ -1,0 +1,8 @@
+polars
+numpy
+pandas
+matplotlib
+pyarrow
+fastparquet
+duckdb
+pyyaml
