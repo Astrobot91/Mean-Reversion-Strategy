@@ -21,6 +21,7 @@
 ├── src/
 │   ├── __init__.py
 │   ├── main.py
+│   ├── config.yaml
 │   ├── services/
 │   │   ├── __init__.py
 │   │   ├── data_processing.py
@@ -28,6 +29,8 @@
 │   │   ├── backtest.py
 │   │   ├── config_loader.py
 │   │   └── perf_metrics.py
+|   ├── test-material/
+|   │   └── sample_tick_data.csv
 │   └── data/
 │       ├── tradesheets/
 │       │   ├── unstressed_tradesheet.csv
@@ -38,12 +41,10 @@
 │       │   ├── unstressed_drawdown.png
 │       │   └── stressed_drawdown.png
 │       ├── metrics.csv
-|       └── dataset.parquet
-├── test-material/
-│   └── sample_tick_data.csv
-│       
+|       └── dataset.parquet   
 ├── README.md
-├── requirements.txt
+├── report.pdf
+└── requirements.txt
 ```
 
 ### 3. Usage
@@ -53,7 +54,7 @@ To run the full backtest pipeline (unstressed and stressed), save tradesheets, m
 ```bash
 PYTHONPATH=. python src/main.py
 ```
-- Change the strategy configs in `src/config.yaml`
+- Change the strategy configs in `src/config.yaml/`
 - Tradesheets will be saved in `src/data/tradesheets/`
 - Metrics will be saved in `src/data/metrics.csv`
 - Plots will be saved in `src/data/plots/`
