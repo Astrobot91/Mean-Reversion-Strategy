@@ -1,0 +1,8 @@
+MeanReversion:
+  commission_rate: 1
+  max_positions: 1000
+  starting_capital: 1000000
+  max_daily_loss: 0.02
+  qty_per_position: 500
+  shock_percentage: 0.05
+  window_size: 20
