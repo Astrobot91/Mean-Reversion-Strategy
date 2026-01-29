@@ -1,4 +1,4 @@
-# Quantitative Data Engineer – Take-Home Test
+# Mean Reversion Strategy
 
 ## Setup & Run Instructions
 
